@@ -1,0 +1,1 @@
+/** @type {import('tailwindcss').Config} */module.exports={content:['./index.html',],theme:{extend:{colors:{background:'#1A1A2E',accent_purple:'#8A2BE2',accent_cyan:'#00FFFF',},keyframes:{'pulse-slow':{'0%, 100%':{transform:'scale(1)',opacity:'0.3'},'50%':{transform:'scale(1.05)',opacity:'0.4'},},},animation:{'pulse-slow':'pulse-slow 8s infinite ease-in-out',},},},plugins:[],}
